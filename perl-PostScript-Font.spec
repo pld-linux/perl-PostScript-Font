@@ -31,6 +31,7 @@ perl Makefile.PL
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
 gzip -9nf README
@@ -40,10 +41,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README.gz
+%doc *.gz
 %attr(755,root,root) %{_bindir}/*
-
 %{perl_sitelib}/PostScript/*.pm
-%{perl_sitearch}/auto/PostScript/Font
-
 %{_mandir}/man[13]/*
