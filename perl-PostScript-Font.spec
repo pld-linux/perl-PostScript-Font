@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	PostScript
 %define	pnam	Font
-Summary:	PostScript-Font perl module
-Summary(pl):	Modu³ perla PostScript-Font
+Summary:	PostScript::Font perl module
+Summary(pl):	Modu³ perla PostScript::Font
 Name:		perl-PostScript-Font
 Version:	1.05
 Release:	3
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-PostScript-Font - module to fetch data from PostScript fonts.
+PostScript::Font - module to fetch data from PostScript fonts.
 
 %description -l pl
-PostScript-Font - modu³ do wyci±gania informacji z czcionek
+PostScript::Font - modu³ do wyci±gania informacji z czcionek
 PostScriptowych.
 
 %prep
