@@ -4,7 +4,7 @@
 Summary:	PostScript::Font perl module
 Summary(pl):	Modu³ perla PostScript::Font
 Name:		perl-PostScript-Font
-Version:	1.06
+Version:	1.08
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
