@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	PostScript
 %define	pnam	Font
@@ -6,7 +10,7 @@ Summary(pl):	PostScript::Font - modu³ Perla do wyci±gania informacji z czcionek 
 Name:		perl-PostScript-Font
 Version:	1.09
 Release:	1
-License:	GPL
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f9e245ebe2619cf52af31438f9d1273e
@@ -31,10 +35,13 @@ przechowuje w pamiêci zawarte w nich informacje.
 	INSTALLDIRS=vendor
 %{__make}
 
+%{?with_tests:%{__make} test}
+
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
