@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	PostScript
-%define	pnam	Font
+%define		pdir	PostScript
+%define		pnam	Font
 Summary:	PostScript::Font - Perl module to fetch data from PostScript fonts
 Summary(pl):	PostScript::Font - modu³ Perla do wyci±gania informacji z czcionek postsctiptowych
 Name:		perl-PostScript-Font
