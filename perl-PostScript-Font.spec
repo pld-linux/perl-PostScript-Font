@@ -8,12 +8,12 @@
 Summary:	PostScript::Font - Perl module to fetch data from PostScript fonts
 Summary(pl):	PostScript::Font - modu³ Perla do wyci±gania informacji z czcionek postsctiptowych
 Name:		perl-PostScript-Font
-Version:	1.09
+Version:	1.10
 Release:	1
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	f9e245ebe2619cf52af31438f9d1273e
+# Source0-md5:	226785389aeffbbf34eb7a4c9cb41e3c
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
