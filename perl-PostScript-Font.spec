@@ -6,7 +6,7 @@
 %define		pdir	PostScript
 %define		pnam	Font
 Summary:	PostScript::Font - Perl module to fetch data from PostScript fonts
-Summary(pl):	PostScript::Font - modu³ Perla do wyci±gania informacji z czcionek postsctiptowych
+Summary(pl.UTF-8):   PostScript::Font - moduÅ‚ Perla do wyciÄ…gania informacji z czcionek postsctiptowych
 Name:		perl-PostScript-Font
 Version:	1.10
 Release:	1
@@ -23,9 +23,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 PostScript::Font Perl module reads PostScript font files and stores
 the information in memory.
 
-%description -l pl
-Modu³ Perla PostScript::Font czyta pliki czcionek postscriptowych i
-przechowuje w pamiêci zawarte w nich informacje.
+%description -l pl.UTF-8
+ModuÅ‚ Perla PostScript::Font czyta pliki czcionek postscriptowych i
+przechowuje w pamiÄ™ci zawarte w nich informacje.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
