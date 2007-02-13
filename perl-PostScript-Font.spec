@@ -6,7 +6,7 @@
 %define		pdir	PostScript
 %define		pnam	Font
 Summary:	PostScript::Font - Perl module to fetch data from PostScript fonts
-Summary(pl.UTF-8):   PostScript::Font - moduł Perla do wyciągania informacji z czcionek postsctiptowych
+Summary(pl.UTF-8):	PostScript::Font - moduł Perla do wyciągania informacji z czcionek postsctiptowych
 Name:		perl-PostScript-Font
 Version:	1.10
 Release:	1
